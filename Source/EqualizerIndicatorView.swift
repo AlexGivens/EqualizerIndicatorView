@@ -268,6 +268,7 @@ public class EqualizerIndicatorView: UIView {
         }
     }
     
+    #if TARGET_INTERFACE_BUILDER
     public override func layoutSubviews() {
         super.layoutSubviews()
         backgroundColor = UIColor.clear
@@ -289,6 +290,7 @@ public class EqualizerIndicatorView: UIView {
             context.fill(rect)
         }
     }
+    #endif
 
 }
 
