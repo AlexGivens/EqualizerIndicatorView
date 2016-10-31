@@ -21,10 +21,10 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IDt-Nx-Gps" customClass="EqualizerIndicatorView" customModule="EqualizerIndicatorView">
-                                <rect key="frame" x="176.5" y="324.5" width="22" height="18"/>
+                                <rect key="frame" x="175.5" y="324.5" width="24" height="18"/>
                                 <color key="tintColor" red="0.94727891156462585" green="0.11527423469387756" blue="0.54937287414965985" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="22" id="EeM-mt-e9a"/>
+                                    <constraint firstAttribute="width" constant="24" id="EeM-mt-e9a"/>
                                     <constraint firstAttribute="height" constant="18" id="rWw-ut-h7B"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
