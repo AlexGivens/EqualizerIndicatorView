@@ -1,5 +1,5 @@
 <p align="center" >
-    <img src="http://alexgivens.com/img/equalizer_header.gif" alt="EqualizerIndicatorView" title="EqualizerIndicatorView" style="width:520px"
+    <img src="http://alexgivens.com/img/equalizer_header.gif" alt="EqualizerIndicatorView" title="EqualizerIndicatorView" width="520" height:"41"
 </p>
 
 [![Version](https://img.shields.io/cocoapods/v/EqualizerIndicatorView.svg?style=flat)](http://cocoapods.org/pods/EqualizerIndicatorView)
