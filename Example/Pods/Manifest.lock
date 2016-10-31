@@ -1,0 +1,16 @@
+PODS:
+  - EqualizerIndicatorView (0.2.0)
+
+DEPENDENCIES:
+  - EqualizerIndicatorView (from `../`)
+
+EXTERNAL SOURCES:
+  EqualizerIndicatorView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EqualizerIndicatorView: d751d3d38771bbddffe82a1a68d8f2b1a6a76c1d
+
+PODFILE CHECKSUM: 8ce65bec056e5dfb0674e371d70bfae988376d15
+
+COCOAPODS: 1.1.0.rc.2

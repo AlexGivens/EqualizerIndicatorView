@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="EqualizerIndicatorView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IDt-Nx-Gps" customClass="EqualizerIndicatorView" customModule="EqualizerIndicatorView">
+                                <color key="tintColor" red="0.22683650259999999" green="0.8683893681" blue="0.86316198109999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="EeM-mt-e9a"/>
+                                    <constraint firstAttribute="height" constant="18" id="rWw-ut-h7B"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNj-sH-T0X">
+                                <state key="normal" title="Pause"/>
+                                <connections>
+                                    <action selector="pauseButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="y1X-YX-dhz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2n-f4-aIw">
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="stopButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nUb-Ng-YFZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVX-N5-y0e">
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="playButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YSo-99-g2E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MNj-sH-T0X" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="2qb-AJ-z9S"/>
+                            <constraint firstItem="l2n-f4-aIw" firstAttribute="leading" secondItem="MNj-sH-T0X" secondAttribute="trailing" constant="64" id="QzF-1D-8ha"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="l2n-f4-aIw" secondAttribute="bottom" constant="54" id="Rg8-zk-O0t"/>
+                            <constraint firstItem="MNj-sH-T0X" firstAttribute="leading" secondItem="rVX-N5-y0e" secondAttribute="trailing" constant="64" id="asN-HW-MDr"/>
+                            <constraint firstItem="IDt-Nx-Gps" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="bog-X0-lSx"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="rVX-N5-y0e" secondAttribute="bottom" constant="54" id="dmD-XZ-4A4"/>
+                            <constraint firstItem="IDt-Nx-Gps" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="sVj-sH-j7k"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="MNj-sH-T0X" secondAttribute="bottom" constant="54" id="vsh-yw-9o1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="equalizerIndicatorView" destination="IDt-Nx-Gps" id="LEn-We-wwe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

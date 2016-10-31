@@ -1,0 +1,6 @@
+framework module EqualizerIndicatorView {
+  umbrella header "EqualizerIndicatorView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'EqualizerIndicatorView_Example' do
+  pod 'EqualizerIndicatorView', :path => '../'
+
+end

@@ -1,0 +1,24 @@
+{
+  "name": "EqualizerIndicatorView",
+  "version": "0.2.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "summary": "Visually indicate the play, pause, or stop state of audio.",
+  "homepage": "https://github.com/AlexGivens/EqualizerIndicatorView",
+  "social_media_url": "https://twitter.com/AlexGivens_",
+  "description": "TODO: Add long description of the pod here.",
+  "authors": {
+    "Alexander Givens": "mail@alexgivens.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EqualizerIndicatorView.git",
+    "tag": "0.2.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "EqualizerIndicatorView/**/*",
+  "frameworks": "UIKit"
+}

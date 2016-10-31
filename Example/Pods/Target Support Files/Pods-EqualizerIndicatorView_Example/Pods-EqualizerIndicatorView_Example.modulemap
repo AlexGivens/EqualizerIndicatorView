@@ -1,0 +1,6 @@
+framework module Pods_EqualizerIndicatorView_Example {
+  umbrella header "Pods-EqualizerIndicatorView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

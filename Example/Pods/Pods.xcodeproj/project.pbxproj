@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15F69725A71FEAAFDC61968FA191F772 /* Pods-EqualizerIndicatorView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA333F0AD43CA7E0180A164636D22BEB /* Pods-EqualizerIndicatorView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		176E026051FF67A6DA21AE48EDEA9C84 /* EqualizerIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B57372EC2807754E3CF7BD6D61A02DD /* EqualizerIndicatorView-dummy.m */; };
+		75748BB1315602C0C48FA37C47938B15 /* Pods-EqualizerIndicatorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0512DF696D15CC205C12C2C50EF88635 /* Pods-EqualizerIndicatorView_Example-dummy.m */; };
+		9A4C4C66008F80F3C7DF221E55F8510C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		DC9A7C8CBBD0D07B92498FCC121C147F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		E0FD4AB71DEE854C75B4DA4B6134184E /* EqualizerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64DF2DBCBC2056312FBDB1F88F466E /* EqualizerIndicatorView.swift */; };
+		F1F0B1E42CC3A961664BDB57974AF370 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		FD0E5A169A020D92A9FE6EEA6FB14356 /* EqualizerIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D95892E34F95D8CD121BBDC7F412F63 /* EqualizerIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87249919F6F00743A988240B79BF4F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 736B663166478B92C2A9474578015944;
+			remoteInfo = EqualizerIndicatorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0512DF696D15CC205C12C2C50EF88635 /* Pods-EqualizerIndicatorView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EqualizerIndicatorView_Example-dummy.m"; sourceTree = "<group>"; };
+		0D95892E34F95D8CD121BBDC7F412F63 /* EqualizerIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EqualizerIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		1B57372EC2807754E3CF7BD6D61A02DD /* EqualizerIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EqualizerIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		1D64DF2DBCBC2056312FBDB1F88F466E /* EqualizerIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EqualizerIndicatorView.swift; sourceTree = "<group>"; };
+		1D65B9177654416B352F6AE9E7DE4764 /* Pods-EqualizerIndicatorView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EqualizerIndicatorView_Example-resources.sh"; sourceTree = "<group>"; };
+		2408A471370FD37AE31D06C001E47131 /* Pods-EqualizerIndicatorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EqualizerIndicatorView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		386757B03BBAD4BBC5A8FE6DFC8978C6 /* EqualizerIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EqualizerIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		44974B922B9BE289A08F98AEC3849100 /* Pods-EqualizerIndicatorView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EqualizerIndicatorView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		48F1297022143B76462071ED63E8ED09 /* EqualizerIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EqualizerIndicatorView.xcconfig; sourceTree = "<group>"; };
+		56AEE34E20EB8A255887755BE696A872 /* Pods_EqualizerIndicatorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EqualizerIndicatorView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5892C261EB83634B3F52797F987EC639 /* Pods-EqualizerIndicatorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EqualizerIndicatorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8902C52F9B11A22C4CFB7E0DB7B04228 /* Pods-EqualizerIndicatorView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EqualizerIndicatorView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A97AC821F445E4F185ED293EF2C037E9 /* EqualizerIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EqualizerIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67BE5DDF0F2B75B7D436CEFB424FEC6 /* EqualizerIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EqualizerIndicatorView.modulemap; sourceTree = "<group>"; };
+		B86A106CCECC34FA960C7BE74C37EEF7 /* Pods-EqualizerIndicatorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EqualizerIndicatorView_Example.modulemap"; sourceTree = "<group>"; };
+		C5DCE0AFA0D9548357AE5F5E54B446AC /* Pods-EqualizerIndicatorView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EqualizerIndicatorView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E4127721A4283E791C031005D9CB46CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EEE986F948A3D6CDDE463E2100D59AA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA333F0AD43CA7E0180A164636D22BEB /* Pods-EqualizerIndicatorView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EqualizerIndicatorView_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C458C62122552703E4F9FDBC557C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4C4C66008F80F3C7DF221E55F8510C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7F0FABE1596903369750CB5ACB2E240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9A7C8CBBD0D07B92498FCC121C147F /* Foundation.framework in Frameworks */,
+				F1F0B1E42CC3A961664BDB57974AF370 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		347D80D9AB93E293586EB2B9FE9E7A39 /* EqualizerIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				1D64DF2DBCBC2056312FBDB1F88F466E /* EqualizerIndicatorView.swift */,
+			);
+			path = EqualizerIndicatorView;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50C036C370D49F6EC0F5F0BF86F5CBD3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84CBF883D2264E5CA1AF6AE826EBAF9E /* Pods-EqualizerIndicatorView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A94ED2F6E15F1114739A454DD22D7954 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C544853735E5419C234D1FC5672F63C7 /* Products */,
+				50C036C370D49F6EC0F5F0BF86F5CBD3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84CBF883D2264E5CA1AF6AE826EBAF9E /* Pods-EqualizerIndicatorView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E4127721A4283E791C031005D9CB46CB /* Info.plist */,
+				B86A106CCECC34FA960C7BE74C37EEF7 /* Pods-EqualizerIndicatorView_Example.modulemap */,
+				8902C52F9B11A22C4CFB7E0DB7B04228 /* Pods-EqualizerIndicatorView_Example-acknowledgements.markdown */,
+				44974B922B9BE289A08F98AEC3849100 /* Pods-EqualizerIndicatorView_Example-acknowledgements.plist */,
+				0512DF696D15CC205C12C2C50EF88635 /* Pods-EqualizerIndicatorView_Example-dummy.m */,
+				C5DCE0AFA0D9548357AE5F5E54B446AC /* Pods-EqualizerIndicatorView_Example-frameworks.sh */,
+				1D65B9177654416B352F6AE9E7DE4764 /* Pods-EqualizerIndicatorView_Example-resources.sh */,
+				FA333F0AD43CA7E0180A164636D22BEB /* Pods-EqualizerIndicatorView_Example-umbrella.h */,
+				5892C261EB83634B3F52797F987EC639 /* Pods-EqualizerIndicatorView_Example.debug.xcconfig */,
+				2408A471370FD37AE31D06C001E47131 /* Pods-EqualizerIndicatorView_Example.release.xcconfig */,
+			);
+			name = "Pods-EqualizerIndicatorView_Example";
+			path = "Target Support Files/Pods-EqualizerIndicatorView_Example";
+			sourceTree = "<group>";
+		};
+		A8962644C6C8973D14D51251B4E1F71A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B67BE5DDF0F2B75B7D436CEFB424FEC6 /* EqualizerIndicatorView.modulemap */,
+				48F1297022143B76462071ED63E8ED09 /* EqualizerIndicatorView.xcconfig */,
+				1B57372EC2807754E3CF7BD6D61A02DD /* EqualizerIndicatorView-dummy.m */,
+				386757B03BBAD4BBC5A8FE6DFC8978C6 /* EqualizerIndicatorView-prefix.pch */,
+				0D95892E34F95D8CD121BBDC7F412F63 /* EqualizerIndicatorView-umbrella.h */,
+				EEE986F948A3D6CDDE463E2100D59AA9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EqualizerIndicatorView";
+			sourceTree = "<group>";
+		};
+		A94ED2F6E15F1114739A454DD22D7954 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D80CEC858B3C2DE05CC9F8D2C76D7FD9 /* EqualizerIndicatorView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C544853735E5419C234D1FC5672F63C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97AC821F445E4F185ED293EF2C037E9 /* EqualizerIndicatorView.framework */,
+				56AEE34E20EB8A255887755BE696A872 /* Pods_EqualizerIndicatorView_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80CEC858B3C2DE05CC9F8D2C76D7FD9 /* EqualizerIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				347D80D9AB93E293586EB2B9FE9E7A39 /* EqualizerIndicatorView */,
+				A8962644C6C8973D14D51251B4E1F71A /* Support Files */,
+			);
+			name = EqualizerIndicatorView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3ED1A5E387EA9F559ED58DF497612CCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0E5A169A020D92A9FE6EEA6FB14356 /* EqualizerIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD89436BDF817B4D010A9C589FAB3308 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F69725A71FEAAFDC61968FA191F772 /* Pods-EqualizerIndicatorView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		452F2299DF63E5BF845FFC797510425C /* Pods-EqualizerIndicatorView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178E82046F31A6479CDCC7E542F14062 /* Build configuration list for PBXNativeTarget "Pods-EqualizerIndicatorView_Example" */;
+			buildPhases = (
+				81FEEA211B16D733E172F39AD436FCB2 /* Sources */,
+				17C458C62122552703E4F9FDBC557C04 /* Frameworks */,
+				CD89436BDF817B4D010A9C589FAB3308 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B255C82B5B584E2BFF56E42C567DFE /* PBXTargetDependency */,
+			);
+			name = "Pods-EqualizerIndicatorView_Example";
+			productName = "Pods-EqualizerIndicatorView_Example";
+			productReference = 56AEE34E20EB8A255887755BE696A872 /* Pods_EqualizerIndicatorView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		736B663166478B92C2A9474578015944 /* EqualizerIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A31B7CF6B35EE20B931FC85D224DBE0 /* Build configuration list for PBXNativeTarget "EqualizerIndicatorView" */;
+			buildPhases = (
+				2F2A73412B3333D86A5DA571373B5914 /* Sources */,
+				E7F0FABE1596903369750CB5ACB2E240 /* Frameworks */,
+				3ED1A5E387EA9F559ED58DF497612CCA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EqualizerIndicatorView;
+			productName = EqualizerIndicatorView;
+			productReference = A97AC821F445E4F185ED293EF2C037E9 /* EqualizerIndicatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C544853735E5419C234D1FC5672F63C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				736B663166478B92C2A9474578015944 /* EqualizerIndicatorView */,
+				452F2299DF63E5BF845FFC797510425C /* Pods-EqualizerIndicatorView_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F2A73412B3333D86A5DA571373B5914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176E026051FF67A6DA21AE48EDEA9C84 /* EqualizerIndicatorView-dummy.m in Sources */,
+				E0FD4AB71DEE854C75B4DA4B6134184E /* EqualizerIndicatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FEEA211B16D733E172F39AD436FCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75748BB1315602C0C48FA37C47938B15 /* Pods-EqualizerIndicatorView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B255C82B5B584E2BFF56E42C567DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EqualizerIndicatorView;
+			target = 736B663166478B92C2A9474578015944 /* EqualizerIndicatorView */;
+			targetProxy = 87249919F6F00743A988240B79BF4F31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		027B26F1729999BA5089E7297CC3BDBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2408A471370FD37AE31D06C001E47131 /* Pods-EqualizerIndicatorView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EqualizerIndicatorView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EqualizerIndicatorView_Example/Pods-EqualizerIndicatorView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EqualizerIndicatorView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		371D4425F4EB05F32638D99FCFE5D6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F1297022143B76462071ED63E8ED09 /* EqualizerIndicatorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EqualizerIndicatorView/EqualizerIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EqualizerIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EqualizerIndicatorView/EqualizerIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EqualizerIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9796DAB9323ED74CDEFE5995861A5E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5892C261EB83634B3F52797F987EC639 /* Pods-EqualizerIndicatorView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EqualizerIndicatorView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EqualizerIndicatorView_Example/Pods-EqualizerIndicatorView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EqualizerIndicatorView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A28E0B06A043A8C232E7A427E96C88C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F1297022143B76462071ED63E8ED09 /* EqualizerIndicatorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EqualizerIndicatorView/EqualizerIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EqualizerIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EqualizerIndicatorView/EqualizerIndicatorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EqualizerIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178E82046F31A6479CDCC7E542F14062 /* Build configuration list for PBXNativeTarget "Pods-EqualizerIndicatorView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9796DAB9323ED74CDEFE5995861A5E61 /* Debug */,
+				027B26F1729999BA5089E7297CC3BDBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A31B7CF6B35EE20B931FC85D224DBE0 /* Build configuration list for PBXNativeTarget "EqualizerIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28E0B06A043A8C232E7A427E96C88C1 /* Debug */,
+				371D4425F4EB05F32638D99FCFE5D6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
