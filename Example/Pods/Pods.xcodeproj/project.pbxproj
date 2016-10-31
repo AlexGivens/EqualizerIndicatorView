@@ -11,8 +11,8 @@
 		176E026051FF67A6DA21AE48EDEA9C84 /* EqualizerIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B57372EC2807754E3CF7BD6D61A02DD /* EqualizerIndicatorView-dummy.m */; };
 		75748BB1315602C0C48FA37C47938B15 /* Pods-EqualizerIndicatorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0512DF696D15CC205C12C2C50EF88635 /* Pods-EqualizerIndicatorView_Example-dummy.m */; };
 		9A4C4C66008F80F3C7DF221E55F8510C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		A53568BF1DC6F277007C4135 /* EqualizerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53568BE1DC6F277007C4135 /* EqualizerIndicatorView.swift */; };
 		DC9A7C8CBBD0D07B92498FCC121C147F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		E0FD4AB71DEE854C75B4DA4B6134184E /* EqualizerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64DF2DBCBC2056312FBDB1F88F466E /* EqualizerIndicatorView.swift */; };
 		F1F0B1E42CC3A961664BDB57974AF370 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
 		FD0E5A169A020D92A9FE6EEA6FB14356 /* EqualizerIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D95892E34F95D8CD121BBDC7F412F63 /* EqualizerIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -31,7 +31,6 @@
 		0512DF696D15CC205C12C2C50EF88635 /* Pods-EqualizerIndicatorView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EqualizerIndicatorView_Example-dummy.m"; sourceTree = "<group>"; };
 		0D95892E34F95D8CD121BBDC7F412F63 /* EqualizerIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EqualizerIndicatorView-umbrella.h"; sourceTree = "<group>"; };
 		1B57372EC2807754E3CF7BD6D61A02DD /* EqualizerIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EqualizerIndicatorView-dummy.m"; sourceTree = "<group>"; };
-		1D64DF2DBCBC2056312FBDB1F88F466E /* EqualizerIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EqualizerIndicatorView.swift; sourceTree = "<group>"; };
 		1D65B9177654416B352F6AE9E7DE4764 /* Pods-EqualizerIndicatorView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EqualizerIndicatorView_Example-resources.sh"; sourceTree = "<group>"; };
 		2408A471370FD37AE31D06C001E47131 /* Pods-EqualizerIndicatorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EqualizerIndicatorView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		386757B03BBAD4BBC5A8FE6DFC8978C6 /* EqualizerIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EqualizerIndicatorView-prefix.pch"; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		8902C52F9B11A22C4CFB7E0DB7B04228 /* Pods-EqualizerIndicatorView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EqualizerIndicatorView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A53568BE1DC6F277007C4135 /* EqualizerIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EqualizerIndicatorView.swift; path = ../../Source/EqualizerIndicatorView.swift; sourceTree = SOURCE_ROOT; };
 		A97AC821F445E4F185ED293EF2C037E9 /* EqualizerIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EqualizerIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67BE5DDF0F2B75B7D436CEFB424FEC6 /* EqualizerIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EqualizerIndicatorView.modulemap; sourceTree = "<group>"; };
 		B86A106CCECC34FA960C7BE74C37EEF7 /* Pods-EqualizerIndicatorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EqualizerIndicatorView_Example.modulemap"; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 		347D80D9AB93E293586EB2B9FE9E7A39 /* EqualizerIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				1D64DF2DBCBC2056312FBDB1F88F466E /* EqualizerIndicatorView.swift */,
+				A53568BE1DC6F277007C4135 /* EqualizerIndicatorView.swift */,
 			);
 			path = EqualizerIndicatorView;
 			sourceTree = "<group>";
@@ -241,6 +241,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					452F2299DF63E5BF845FFC797510425C = {
+						LastSwiftMigration = 0810;
+					};
+					736B663166478B92C2A9474578015944 = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -266,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				176E026051FF67A6DA21AE48EDEA9C84 /* EqualizerIndicatorView-dummy.m in Sources */,
-				E0FD4AB71DEE854C75B4DA4B6134184E /* EqualizerIndicatorView.swift in Sources */,
+				A53568BF1DC6F277007C4135 /* EqualizerIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2408A471370FD37AE31D06C001E47131 /* Pods-EqualizerIndicatorView_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -319,6 +328,7 @@
 				PRODUCT_NAME = Pods_EqualizerIndicatorView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -329,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48F1297022143B76462071ED63E8ED09 /* EqualizerIndicatorView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -405,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5892C261EB83634B3F52797F987EC639 /* Pods-EqualizerIndicatorView_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -431,6 +443,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -441,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48F1297022143B76462071ED63E8ED09 /* EqualizerIndicatorView.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";

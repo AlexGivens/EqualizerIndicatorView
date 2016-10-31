@@ -24,6 +24,7 @@
 
 import UIKit
 
+@IBDesignable
 public class EqualizerIndicatorView: UIView {
     
     public enum state {
@@ -36,12 +37,14 @@ public class EqualizerIndicatorView: UIView {
     
     private var bars = [EqualizerBar]()
     
+    @IBInspectable
     public var barCount: Int = 3 {
         didSet {
             generateBars()
         }
     }
     
+    @IBInspectable
     public var barSpacing: CGFloat = 1.0 {
         didSet {
             generateBars()
@@ -115,8 +118,7 @@ public class EqualizerIndicatorView: UIView {
         for index in 0..<barCount {
             let xCoordinate = (CGFloat(index) * barWidth) + (CGFloat(index) * barSpacing)
             let frame = CGRect(x: xCoordinate, y: 0, width: barWidth, height: bounds.size.height)
-            let bar = EqualizerBar(frame: frame)
-            bar.tintColor = tintColor
+            let bar = EqualizerBar(frame: frame, tintColor: tintColor)
             addSubview(bar)
             bars.append(bar)
         }
@@ -140,6 +142,12 @@ public class EqualizerIndicatorView: UIView {
         
         required init?(coder aDecoder: NSCoder) {
             super.init(coder: aDecoder)
+            initialize()
+        }
+        
+        init(frame: CGRect, tintColor: UIColor) {
+            super.init(frame: frame)
+            self.tintColor = tintColor
             initialize()
         }
         
@@ -260,6 +268,28 @@ public class EqualizerIndicatorView: UIView {
         }
     }
     
+    public override func layoutSubviews() {
+        super.layoutSubviews()
+        backgroundColor = UIColor.clear
+    }
+
+    override public func draw(_ rect: CGRect) {
+        guard let context = UIGraphicsGetCurrentContext() else { return }
+    
+        context.clear(rect)
+        
+        let cumulativeSpacing = barSpacing * (CGFloat(barCount) - 1.0)
+        let barWidth = (bounds.size.width - cumulativeSpacing) / CGFloat(barCount)
+        let pauseHeight = bounds.size.height * 0.3
+        context.setFillColor(tintColor.cgColor)
+        for index in 0...barCount {
+            let randomHeight = CGFloat(randomDoubleBetween(Double(pauseHeight), Double(bounds.size.height)))
+            let x = (CGFloat(index) * barWidth) + (CGFloat(index) * barSpacing)
+            let rect = CGRect(x: x, y: 0, width: barWidth, height: randomHeight)
+            context.fill(rect)
+        }
+    }
+
 }
 
 // MARK: Utility
