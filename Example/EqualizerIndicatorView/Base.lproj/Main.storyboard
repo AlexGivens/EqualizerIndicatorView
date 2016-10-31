@@ -22,7 +22,6 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IDt-Nx-Gps" customClass="EqualizerIndicatorView" customModule="EqualizerIndicatorView">
                                 <rect key="frame" x="176.5" y="324.5" width="22" height="18"/>
-                                <color key="backgroundColor" red="0.4039215686" green="0.4039215686" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.94727891156462585" green="0.11527423469387756" blue="0.54937287414965985" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="22" id="EeM-mt-e9a"/>
@@ -37,6 +36,15 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVX-N5-y0e">
+                                <rect key="frame" x="72" y="583" width="30" height="30"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" red="0.9472789116" green="0.11527423470000001" blue="0.54937287410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YSo-99-g2E"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNj-sH-T0X">
                                 <rect key="frame" x="166.5" y="583" width="42" height="30"/>
                                 <state key="normal" title="Pause">
@@ -53,15 +61,6 @@
                                 </state>
                                 <connections>
                                     <action selector="stopButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nUb-Ng-YFZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVX-N5-y0e">
-                                <rect key="frame" x="72.5" y="583" width="30" height="30"/>
-                                <state key="normal" title="Play">
-                                    <color key="titleColor" red="0.9472789116" green="0.11527423470000001" blue="0.54937287410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="playButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YSo-99-g2E"/>
                                 </connections>
                             </button>
                         </subviews>

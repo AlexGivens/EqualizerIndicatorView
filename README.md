@@ -11,7 +11,7 @@ EqualizerIndicatorView is available through [CocoaPods](http://cocoapods.org). T
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'EqualizerIndicatorView', '~> 1.0.0'
+pod 'EqualizerIndicatorView', '~> 1.0.1'
 ```
 
 ## Usage
@@ -19,12 +19,13 @@ pod 'EqualizerIndicatorView', '~> 1.0.0'
 EqualizerIndicatorView can reflect the play, pause, and stop states of audio. After installing the Cocoapod in your project, create and animate an indicator like so:
 
 ```swift
-let equalizerIndicatorView = EqualizerIndicatorView()
-addSubview(equalizerIndicatorView)
-equalizerIndicatorView.setState(.play, animated: true) // The state can be set to .play, .pause, or .stop
+let equalizerIndicatorView = EqualizerIndicatorView(frame: CGRect(x: 0, y: 0, width: 24, height: 18))
+equalizerIndicatorView.setState(.play, animated: true)
+equalizerIndicatorView.setState(.pause, animated: true)
+equalizerIndicatorView.setState(.stop, animated: true)
 ```
 
-EqualizerIndicatorView is designable in storyboards as well. Add a UIView to your storyboard view and set the parent class to `EqualizerIndicatorView`. Then you can set the number of bars and bar spacing, as well as tint color like any other view.
+EqualizerIndicatorView is designable in storyboards as well. To render an indicator in your storyboard, add a plain UIView to the view of your choice, then set the view's Class *and* Module to "EqualizerIndicatorView".
 
 ## Example
 
@@ -32,7 +33,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-EqualizerIndicatorView requires iOS 9.0, macOS 10.9, tvOS 9.0, or watchOS 2.0.
+EqualizerIndicatorView requires iOS 9.0 or tvOS 9.0.
 
 ## Author
 
