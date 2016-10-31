@@ -1,4 +1,6 @@
-# EqualizerIndicatorView
+<p align="center" >
+    <img src="http://alexgivens.com/img/equalizer_header.gif" alt="EqualizerIndicatorView" title="EqualizerIndicatorView" style="width:520px"
+</p>
 
 [![Version](https://img.shields.io/cocoapods/v/EqualizerIndicatorView.svg?style=flat)](http://cocoapods.org/pods/EqualizerIndicatorView)
 [![License](https://img.shields.io/cocoapods/l/EqualizerIndicatorView.svg?style=flat)](http://cocoapods.org/pods/EqualizerIndicatorView)
