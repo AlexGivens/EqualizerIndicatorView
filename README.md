@@ -11,7 +11,7 @@ EqualizerIndicatorView is available through [CocoaPods](http://cocoapods.org). T
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'EqualizerIndicatorView', '~> 1.0.1'
+pod 'EqualizerIndicatorView', '~> 1.0.2'
 ```
 
 ## Usage

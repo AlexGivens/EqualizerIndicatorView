@@ -3,7 +3,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EqualizerIndicatorView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.summary          = 'Visually indicate the play, pause, or stop state of audio.'
   s.homepage         = 'https://github.com/AlexGivens/EqualizerIndicatorView'
