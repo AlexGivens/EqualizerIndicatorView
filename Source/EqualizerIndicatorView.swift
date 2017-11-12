@@ -33,9 +33,11 @@ public class EqualizerIndicatorView: UIView {
         case stop
     }
     
+    /// The current visual state of the indicator. Read only.
+    
     public private(set) var state: state = .stop
     
-    private var bars = [EqualizerBar]()
+    /// The number of bars to draw in the indicator.
     
     @IBInspectable
     public var barCount: Int = 3 {
@@ -44,12 +46,16 @@ public class EqualizerIndicatorView: UIView {
         }
     }
     
+    /// The distance, in points, between bars.
+    
     @IBInspectable
     public var barSpacing: CGFloat = 1.0 {
         didSet {
             generateBars()
         }
     }
+    
+    private var bars = [EqualizerBar]()
     
     public override var tintColor: UIColor! {
         didSet {
@@ -75,10 +81,18 @@ public class EqualizerIndicatorView: UIView {
                                                   object: nil)
     }
     
+    /**
+     
+     Set the visual state of the indicator to play, pause, or stop.
+     
+     - Parameters:
+        - state: The play, pause, or stop visual state.
+        - animated: Determines if the transition to the specified state should be animated.
+     
+     */
+    
     public func setState(_ state: state, animated: Bool) {
-        if self.state == state {
-            return
-        }
+        guard self.state != state else { return }
         self.state = state
         for bar in bars {
             bar.setState(self.state, animated: animated)
@@ -92,7 +106,7 @@ public class EqualizerIndicatorView: UIView {
                                                object: nil)
     }
     
-    func applicationWillEnterForeground() {
+    @objc func applicationWillEnterForeground() {
         for bar in bars {
             bar.setState(self.state, animated: false)
         }
@@ -106,9 +120,7 @@ public class EqualizerIndicatorView: UIView {
         
         bars = [EqualizerBar]()
         
-        if barCount <= 0 {
-            return
-        }
+        guard barCount > 0 else { return }
         
         layoutIfNeeded()
         
@@ -123,8 +135,7 @@ public class EqualizerIndicatorView: UIView {
             bars.append(bar)
         }
         
-        let oneEighty = CGFloat(M_PI_2) * 2.0
-        transform = CGAffineTransform(rotationAngle: oneEighty)
+        transform = CGAffineTransform(rotationAngle: CGFloat.pi)
     }
     
     private class EqualizerBar: UIView {
@@ -269,6 +280,7 @@ public class EqualizerIndicatorView: UIView {
     }
     
     #if TARGET_INTERFACE_BUILDER
+    
     public override func layoutSubviews() {
         super.layoutSubviews()
         backgroundColor = UIColor.clear
@@ -290,6 +302,7 @@ public class EqualizerIndicatorView: UIView {
             context.fill(rect)
         }
     }
+    
     #endif
 
 }

@@ -1,7 +1,7 @@
 <br >
 
 <p align="center" >
-    <img src="http://alexgivens.com/img/equalizer_header.gif" alt="EqualizerIndicatorView" title="EqualizerIndicatorView" width="520" height:"41"
+    <img src="https://raw.githubusercontent.com/AlexGivens/EqualizerIndicatorView/master/Title.gif" alt="EqualizerIndicatorView" title="EqualizerIndicatorView" width="520" height:"41"
 </p>
 
 <br >
@@ -25,7 +25,8 @@ pod 'EqualizerIndicatorView', '~> 1.0.2'
 EqualizerIndicatorView can reflect the play, pause, and stop states of audio. After installing the Cocoapod in your project, create and animate an indicator like so:
 
 ```swift
-let equalizerIndicatorView = EqualizerIndicatorView(frame: CGRect(x: 0, y: 0, width: 24, height: 18))
+let frame = CGRect(x: 0, y: 0, width: 24, height: 18)
+let equalizerIndicatorView = EqualizerIndicatorView(frame: frame)
 equalizerIndicatorView.setState(.play, animated: true)
 equalizerIndicatorView.setState(.pause, animated: true)
 equalizerIndicatorView.setState(.stop, animated: true)
