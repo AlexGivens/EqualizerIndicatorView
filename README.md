@@ -5,24 +5,37 @@
 </p>
 
 <br >
+<br >
 
 [![Version](https://img.shields.io/cocoapods/v/EqualizerIndicatorView.svg?style=flat)](http://cocoapods.org/pods/EqualizerIndicatorView)
 [![License](https://img.shields.io/cocoapods/l/EqualizerIndicatorView.svg?style=flat)](http://cocoapods.org/pods/EqualizerIndicatorView)
 [![Platform](https://img.shields.io/cocoapods/p/EqualizerIndicatorView.svg?style=flat)](http://cocoapods.org/pods/EqualizerIndicatorView)
 [![Twitter](https://img.shields.io/badge/twitter-%40AlexGivens_-blue.svg)](http://twitter.com/AlexGivens_)
 
+## Introduction
+`EqualizerIndicatorView` is Swift UI component to indicate the current status of audio. The design is inspired by Apple's Music app.
+
+## Demo
+
+An example project is included to demonstrate how to use an indicator with storyboards. To run the project, run `pod install` from the **Example** directory first.
+
 ## Installation
 
-EqualizerIndicatorView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Install the library through [CocoaPods](http://cocoapods.org). Add the following line to your **Podfile**, then run `pod install`.
 
 ```ruby
-pod 'EqualizerIndicatorView', '~> 1.0.2'
+pod 'EqualizerIndicatorView', '~> 2.0'
+```
+
+Be sure to import the library when needed.
+
+```swift
+import EqualizerIndicatorView
 ```
 
 ## Usage
 
-EqualizerIndicatorView can reflect the play, pause, and stop states of audio. After installing the Cocoapod in your project, create and animate an indicator like so:
+`EqualizerIndicatorView` can reflect the play, pause, and stop states of audio. Initialize and animate an indicator as follows.
 
 ```swift
 let frame = CGRect(x: 0, y: 0, width: 24, height: 18)
@@ -32,20 +45,24 @@ equalizerIndicatorView.setState(.pause, animated: true)
 equalizerIndicatorView.setState(.stop, animated: true)
 ```
 
-EqualizerIndicatorView is designable in storyboards as well. To render an indicator in your storyboard, add a plain UIView to the view of your choice, then set the view's Class *and* Module to "EqualizerIndicatorView".
+`EqualizerIndicatorView` may be used in storyboards, and fully supports AutoLayout. Add a plain UIView first, then set the view's Class *and* Module to `EqualizerIndicatorView`.
 
-## Example
+## Migration
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+### Version 2.0.0
 
-## Requirements
+This version requires Xcode 9.0 and Swift 4.
 
-EqualizerIndicatorView requires iOS 9.0 or tvOS 9.0.
+### Version 1.0.0
 
-## Author
+`EqualizerIndicatorView` supports iOS 9.0+ and tvOS 9.0+. Also supports Swift 3 and Xcode 8.0.
 
-Alex Givens, http://alexgivens.com
+## Credits
+
+Created by [Alex Givens](http://alexgivens.com) in California.
 
 ## License
 
-EqualizerIndicatorView is available under the MIT license. See the LICENSE file for more info.
+The MIT License (MIT)
+
+Copyright (c) 2017 Alex Givens http://alexgivens.com
