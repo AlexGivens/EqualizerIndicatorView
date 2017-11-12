@@ -92,10 +92,9 @@ public class EqualizerIndicatorView: UIView {
      */
     
     public func setState(_ state: state, animated: Bool) {
-        guard self.state != state else { return }
         self.state = state
         for bar in bars {
-            bar.setState(self.state, animated: animated)
+            bar.setState(state, animated: animated)
         }
     }
     
